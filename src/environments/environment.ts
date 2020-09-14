@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyA2iloWimveiYEUnEqRyQLOOVVNsmQLUXw",
+    authDomain: "flipstream-59416.firebaseapp.com",
+    databaseURL: "https://flipstream-59416.firebaseio.com",
+    projectId: "flipstream-59416",
+    storageBucket: "flipstream-59416.appspot.com",
+    messagingSenderId: "692923987411",
+    appId: "1:692923987411:web:855a67fc3c6ce1a301eb26",
+    measurementId: "G-DWDYF43CD7"
+  }
 };
 
 /*

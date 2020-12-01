@@ -1,8 +1,9 @@
 <h1>flipstream</h1>
+<button (click)="getDocs()">HIT ME</button>
 <form class="example-form" (keydown.enter)="$event.preventDefault()">
     <mat-form-field appearance="outline">
         <mat-label>Outline form field</mat-label>
-        <input matInput placeholder="Placeholder" (keyup.enter)="getAndSaveDataForFeed(feedUrl.value);" #feedUrl />
+        <input matInput placeholder="Placeholder" (keyup.enter)="getDataFromFeed(feedUrl.value);" #feedUrl />
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
         <mat-hint>Hint</mat-hint>
       </mat-form-field>
@@ -19,4 +20,6 @@
     
   </div>
 </ul>
+
+
 <!-- {{ arrayWithFeeds }} -->
